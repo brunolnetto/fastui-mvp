@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastui-mvp"
+version = "0.0.1"
+description = "A minimal FastUI app"
+authors = ["Bruno Peixoto <brunolnetto@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastui = "^0.6.0"
+fastapi = "^0.111.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+ruff = "^0.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
